@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <!-- Preconnect to optimize font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Link to Poppins font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Link to custom stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar"> 
+        <h1>Nostra</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-links"><a href="index.html">Home</a></p>
+            <p class="navbar-links"><a href="collections.html">Collections</a></p>
+            <p class="navbar-links"><a href="contact.html">Contact us</a></p>
+        </div>
+        <!-- Menu toggle for mobile view -->
+        <div class="navbar-menu-toggle" onclick="shownav()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Side Navigation Bar (for mobile view) -->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenav()"><i class="fa-solid fa-xmark"></i></p>
+        <p class="side-navbar-links"><a href="index.html">Home</a></p>
+        <p class="side-navbar-links"><a href="collections.html">Collections</a></p>
+        <p class="side-navbar-links"><a href="contact.html">Contact us</a></p>
+    </div>
+
+    <!-- Product Section with Search Form -->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="products">
+            <!-- Individual Product Boxes -->
+            <div class="product-box">
+                <img src="na1.jpeg" alt="White Shirt" width="300" height="300">
+                <p>Women Fit and Flare Pink Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="mw4.jpeg" alt="Black Shirt" width="300" height="300">
+                <p>Rebellious Fashion</p>
+            </div>
+            <div class="product-box">
+                <img src="na2.jpeg" alt="White Shirt" width="300" height="300">
+                <p>Men Single Breasted - 1 button Solid Suit</p>
+            </div>
+            <div class="product-box">
+                <img src="mw3.jpeg" alt="Black Shirt" width="300" height="300">
+                <p>Men Regular Fit Self Design Spread Collar Party Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="na3.jpeg" alt="White Shirt" width="300" height="300">
+                <p>Women Fit and Flare blue&white Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="mw2.jpeg" alt="Black Shirt" width="300" height="300">
+                <p>Suave Vera</p>
+            </div>
+            <div class="product-box">
+                <img src="na4.jpeg" alt="White Shirt" width="300" height="300">
+                <p>Tweed Solid Coat For Men</p>
+            </div>
+            <div class="product-box">
+                <img src="mw1.jpeg" alt="Black Shirt" width="300" height="300">
+                <p>Solomons Fashion</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <!-- Footer Description -->
+                <p>Discover the latest trends and elevate your style with Nostra. We are committed to offering top-quality fashion and exceptional customer service.</p>
+                <!-- Social Media Icons -->
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-telegram" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Copyright -->
+        <p>@2024 Nostra.com</p>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>

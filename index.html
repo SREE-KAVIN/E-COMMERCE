@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <!-- Font and CSS links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-links"><a href="index.html">Home</a></p>
+            <p class="navbar-links"><a href="collections.html">Collections</a></p>
+            <p class="navbar-links"><a href="contact.html">Contact us</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="shownav()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Side Navigation Menu (for mobile view) -->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenav()"><i class="fa-solid fa-xmark"></i></p>
+        <p class="side-navbar-links"><a href="index.html">Home</a></p>
+        <p class="side-navbar-links"><a href="collections.html">Collections</a></p>
+        <p class="side-navbar-links"><a href="contact.html">Contact us</a></p>
+    </div>
+
+    <!-- Header Section -->
+    <div class="header">
+        <div>
+            <h1>Level up your style</h1>
+            <p>with our stunning Collections</p>
+            <a href="collections.html"><button class="header-button">Shop Now</button></a>
+        </div>
+        <div class="header-image">
+            <img src="index.webp" alt="Nostra Collection" width="300px" height="300">
+        </div>
+    </div>
+
+    <!-- Service Section -->
+    <div class="service">
+        <div class="service-container-1">
+            <div>
+                <h2>Exceptional Service</h2>
+                <h2>for Every Customer</h2>
+            </div>
+            <div>
+                <p>|| We are dedicated to providing you with a seamless and enjoyable shopping experience from start to finish.</p>
+            </div>
+        </div>
+        <div class="service-container-2">
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>Satisfaction Guaranteed</h4>
+                <p>Our top priority is your satisfaction. If you’re not happy with your purchase, let us know and we’ll make it right.</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>Fresh Styles Daily</h4>
+                <p>Explore new arrivals every day to keep your wardrobe up-to-date with the latest trends and styles.</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>Swift & Complimentary Shipping</h4>
+                <p>Enjoy fast and free shipping on all orders, with delivery right to your doorstep.</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- New Arrival Section -->
+    <h2 style="padding: 20px;">New Arrival</h2>
+    <div class="new-arrival">
+        <div class="new-arrival-container">
+            <img src="na1.jpeg" alt="New Arrival 1" width="300px" height="300px">
+            <a href="collections.html"><button>Shop Now <i class="fa-solid fa-arrow-right"></i></button></a>
+        </div>
+        <div class="new-arrival-container">
+            <img src="na2.jpeg" alt="New Arrival 2" width="300px" height="300px">
+            <a href="collections.html"><button>Shop Now <i class="fa-solid fa-arrow-right"></i></button></a>
+        </div>
+        <div class="new-arrival-container">
+            <img src="na3.jpeg" alt="New Arrival 3" width="300px" height="300px">
+            <a href="collections.html"><button>Shop Now <i class="fa-solid fa-arrow-right"></i></button></a>
+        </div>
+        <div class="new-arrival-container">
+            <img src="na4.jpeg" alt="New Arrival 4" width="300px" height="300px">
+            <a href="collections.html"><button>Shop Now <i class="fa-solid fa-arrow-right"></i></button></a>
+        </div>
+    </div>
+
+    <!-- Most Wanted Section -->
+    <h2 style="padding: 20px;">Most Wanted</h2>
+    <div class="new-arrival">
+        <div class="new-arrival-container">
+            <img src="mw1.jpeg" alt="Most Wanted 1" width="300px" height="300px">
+            <a href="collections.html"><button>Shop Now <i class="fa-solid fa-arrow-right"></i></button></a>
+        </div>
+        <div class="new-arrival-container">
+            <img src="mw2.jpeg" alt="Most Wanted 2" width="300px" height="300px">
+            <a href="collections.html"><button>Shop Now <i class="fa-solid fa-arrow-right"></i></button></a>
+        </div>
+        <div class="new-arrival-container">
+            <img src="mw3.jpeg" alt="Most Wanted 3" width="300px" height="300px">
+            <a href="collections.html"><button>Shop Now <i class="fa-solid fa-arrow-right"></i></button></a>
+        </div>
+        <div class="new-arrival-container">
+            <img src="mw4.jpeg" alt="Most Wanted 4" width="300px" height="300px">
+            <a href="collections.html"><button>Shop Now <i class="fa-solid fa-arrow-right"></i></button></a>
+        </div>
+    </div>
+
+    <!-- Newsletter Signup Section -->
+    <div class="news">
+        <h2>Join our Newsletter</h2>
+        <p>Signup for our email newsletter to get exclusive discounts, updates, and more</p>
+        <div>
+            <input type="text" class="search" placeholder="Enter your email">
+        </div>
+        <div>
+            <button>Subscribe</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>Discover the latest trends and elevate your style with Nostra. We are committed to offering top-quality fashion and exceptional customer service.</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@2024 Nostra.com</p>
+    </div>
+
+    <!-- JavaScript link -->
+    <script src="script.js"></script>
+</body>
+</html>
